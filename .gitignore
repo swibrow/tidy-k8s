@@ -15,7 +15,13 @@
 *.out
 
 # Dependency directories (remove the comment below to include it)
-# vendor/
+vendor/
+
+# Output of go tooling
+bin/
 
 # Go workspace file
 go.work
+
+# Stash files
+.dump/
